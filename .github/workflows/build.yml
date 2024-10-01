@@ -15,7 +15,7 @@ on:
 
 env:
   MY_IMAGE_NAME: "${{ github.event.repository.name }}"  # the name of the image produced by this build, matches repo names
-  MY_IMAGE_DESC: "Bazzite Deck Stable Mirror"
+  MY_IMAGE_DESC: "Bazzite Stable Mirror"
   IMAGE_REGISTRY: "registry.hub.docker.com/${{ github.repository_owner }}"  # do not edit
 
 jobs:
